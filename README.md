@@ -23,7 +23,7 @@ When user click on Generate Password button
 
 
 
-## Acceptance Criteria
+
 
 ```
 GIVEN I need a new, secure password
