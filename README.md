@@ -1,16 +1,11 @@
 Rework:
 
-I have changed repo name and site link to more friendly name as
-"Password-Generator"
-I have tried to commit to main repo with more details Three more times
-I have added more details on readme file and commited to repo
+1. I have renamed the repository and site link to a more user-friendly name: "Password-Generator". 
+2. Additionally, I made three more detailed commits to the main repository.
+3. Furthermore, I've enriched the README file with additional details and pushed the changes to the repository.
 
-
-
-
-This Pasword-Generator has HTML, CSS and Javascripts
-
-I defined variables as following and named as more meaningful way
+The "Password-Generator" encompasses HTML, CSS, and JavaScript functionalities.
+In the JavaScript code, I've revamped variable names to enhance their clarity:
 
   var lowercaseCharacters = "abcdefghijklmnopqrstuvwxyz";
   var uppercaseCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -18,21 +13,22 @@ I defined variables as following and named as more meaningful way
   var specialCharacters = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
 
 
-When user click on Generate Password button following condtions are validated to run
+Upon clicking the "Generate Password" button, the application validates the following conditions:
 
-1. the application checks if inputed value are empty or cancel button are pressed
-2. the apppicaiton checks if it is integer
-3. the application checks if password length are beween 8 and 128 characters 
-4. Prompt for character types as following
+Checks if any input values are empty or if the cancel button was pressed.
+Validates if the input is an integer.
+Ensures that the password length is between 8 and 128 characters.
+Prompts the user to select character types:
+
 
   var selectlowercaseCharacters = confirm("Do You want to Include lowercase characters?");
   var selectuppercaseCharacters = confirm("Do You want to Include uppercase characters?");
   var selectnumericCharacters = confirm("Do You want toInclude numeric characters?");
   var selectspecialCharacters = confirm("Do You want to Include special characters?");
 
-5.then The application checks if at least charcter types are selected
+Subsequently, the application verifies if at least one character type is selected.
 
-6. when Everythinga are validted, then passes "password" that was generated randomly and display on main page.
+Once all validations are successful, the randomly generated "password" is passed and displayed on the main page.
 
 
 
