@@ -30,6 +30,13 @@ Subsequently, the application verifies if at least one character type is selecte
 
 Once all validations are successful, the randomly generated "password" is passed and displayed on the main page.
 
+Live site Link
+
+https://sagagi74.github.io/Password-Generator/
+
+![Site Image](Passwords.JPG)
+
+
 
 
 
