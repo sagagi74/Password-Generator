@@ -1,3 +1,10 @@
+2nd rework:
+fixing this error
+
+"One issue I noted was when selecting an improper choice to generate I was getting an undefined value in the input field which you'll prob wanna fix for an even higher grade" comment from Grading Teams
+
+
+
 Rework:
 
 1. I have renamed the repository and site link to a more user-friendly name: "Password-Generator". 
