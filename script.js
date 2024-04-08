@@ -37,9 +37,13 @@ function  generatePassword() {
 // check if cancel button pressed or no value are inputed 
 
    if (passwordLength === null || passwordLength.trim() === "") {
+
+  
+
+
     alert("You did not enter anything or pressed cancel button Please try again.");
 
-    //document.getElementsByName('passwordtext')[0].placeholder= "nothing"
+  
 
    return;
 
@@ -50,10 +54,27 @@ function  generatePassword() {
    UserInput = parseInt(passwordLength);
    
    if (isNaN(UserInput) || !Number.isInteger(UserInput)) {
+
+    //document.getElementById('password').placeholder = 'New Placeholder Text';
+    //document.getElementById('password').value = 'Your Secure Password Here';
+    //document.getElementsByName('passwordtext')[0].placeholder= "nothing"
+
+
+
     alert("You inputed: "+ "'" + passwordLength + "'" + " Please enter an integer only. you can choose the number between 8 and 128.");
 
+
+    //document.getElementsByName('passwordtext')[0].placeholder= "nothing"
+
+   var passwordText = document.getElementsByName('passwordtext')[0].placeholder;
+  
+   console.log(passwordText);
+   // passwordText.value = "Please, Input Integer Values";
  
-    return;
+   // console.log(passwordText.value);
+
+    
+    return passwordText;
 
  
   } else if (isNaN(UserInput) || UserInput < 8 || UserInput > 128) {
